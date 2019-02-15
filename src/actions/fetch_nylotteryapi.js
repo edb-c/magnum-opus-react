@@ -5,7 +5,7 @@ export function fetch_nylotteryapi() {
   return (dispatch) => {  
       dispatch({ type: 'LOADING_NYLOTTERYAPI'})
 
-  return fetch('http://localhost:3000/api/v1/nylotteryapi')
+  return fetch('https://magnum-opus-api.herokuapp.com/api/v1/nylotteryapi')
 
 //  return fetch('https://data.ny.gov/resource/6nbc-h7bj.json')    
   

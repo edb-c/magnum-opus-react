@@ -1,7 +1,7 @@
 export function delete_myluckynumbers(id, winning_numbers, bonus) {
 //debugger
 
-const url = 'http://localhost:3000/api/v1/myluckynumbers/' + id
+const url = 'https://magnum-opus-api.herokuapp.com/api/v1/myluckynumbers/' + id
 console.log(url)
     return (dispatch) => {
         return fetch(url, {
