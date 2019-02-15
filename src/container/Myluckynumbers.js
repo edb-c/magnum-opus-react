@@ -22,7 +22,7 @@ class Myluckynumbers extends Component {
   render() {
       return (
         <div> 
-          <h3> Your {this.renderWinners().length} Stored Lucky Numbers are:</h3>
+          <h3> Your {this.renderWinners().length} Stored Favorite Numbers are:</h3>
           <Table striped bordered hover>
         <tbody>
         <tr>

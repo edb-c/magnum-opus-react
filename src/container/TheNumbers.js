@@ -56,7 +56,7 @@ class TheNumbers extends Component {
     </Col>     
 
     <Col md={4}>    
-        <h3> Enter New Set of Lucky Numbers</h3> 
+        <h3> Enter New Set of Lotto Numbers</h3> 
         <MyluckynumbersForm create_myluckynumbers={this.props.create_myluckynumbers}/> 
     </Col> 
     
