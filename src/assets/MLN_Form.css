@@ -1,0 +1,32 @@
+.MLN_Form {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.MLN_Form label {
+  margin: 5px 10px 5px 0;
+}
+
+.MLN_Form input{
+vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height:200px;
+  font-size:18pt;
+}
+
+.MLN_Form button{
+ padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.MLN_Form button:hover 
+ {
+  background-color: royalblue;
+}
