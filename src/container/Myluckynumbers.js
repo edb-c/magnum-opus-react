@@ -40,14 +40,13 @@ class Myluckynumbers extends Component {
   }
 }
 
-//export default Myluckynumbers;
 const mapStateToProps = state => {
 
     return {
         winningNumbers: state.winners.winnersPayload
       } 
     }
-    //Export default TheNumbers is dumb component, does not know anything about the data.
-    //When connect is used, it 'connects' the component to the application store.
-    //Now is smart component or container.
+
+//When connect is used, it 'connects' the component to the application store.
+//Now is smart component or container.
     export default connect(mapStateToProps, { delete_myluckynumbers })(Myluckynumbers)

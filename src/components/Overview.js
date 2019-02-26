@@ -15,7 +15,7 @@ class Overview extends Component {
 
         A component is typically implemented as a Javascript class that has a state and render method.  State is the data to be displayed and Render method describes what the UI will look like.  The output of the Render method, is a React Element.  This is a Javascript Object that represents the DOM element in memory - the Virtual DOM.
 
-        When state changes, a new React element is created which is compared to previous version and update the changes on the Virtual DOM.  
+        When state changes, a new React element is created which is compared to previous version and updates the changes on the Virtual DOM.  
 
 
       </p>
