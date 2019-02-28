@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import Table from 'react-bootstrap/Table'
 
 //All of the visible content of our app is contained within this App class.
-//<MyluckynumbersForm create_myluckynumbers={this.props.create_myluckynumbers}/> 
 class Nylotteryapi extends Component {
 
   componentDidMount() {
@@ -13,19 +12,19 @@ class Nylotteryapi extends Component {
     
     renderNylotteryapi = () => {
 
-        return this.props.nylotteryapiNumbers.map(nylapi => {  
-          return <tr key={nylapi.draw_date}>
-          <td> {nylapi.draw_date.substring(0,10)} </td>
-          <td> {nylapi.winning_numbers} </td>
-          <td> {nylapi.bonus} </td>
-           </tr> 
-        })  
+      return this.props.nylotteryapiNumbers.map(nylapi => {  
+        return <tr key={nylapi.draw_date}>
+        <td> {nylapi.draw_date.substring(0,10)} </td>
+        <td> {nylapi.winning_numbers} </td>
+        <td> {nylapi.bonus} </td>
+        </tr> 
+      })  
     }
   render() {
       return (
         <div> 
           <h4> Past 10 Winning NY Lotto Numbers:</h4>
-          <Table striped bordered hover>
+      <Table striped bordered hover>
         <tbody>
         <tr>
           <th>Draw Date</th> 
@@ -36,7 +35,7 @@ class Nylotteryapi extends Component {
         {this.renderNylotteryapi()}
 
         </tbody>
-        </Table>
+      </Table>
         </div>
       )
   }

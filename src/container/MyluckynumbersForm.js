@@ -4,8 +4,8 @@ import { create_myluckynumbers } from '../actions/create_myluckynumbers';
 import { bindActionCreators } from 'redux';
 import '../assets/MLN_Form.css';
 
-
 class MyluckynumbersForm extends Component { 
+//Since state is initialized and methods are binded, a constructor is implemented.    
     constructor() {
         super() 
         this.state = {
@@ -15,12 +15,8 @@ class MyluckynumbersForm extends Component {
         this.handleChange = this.handleChange.bind(this)
         this.handleOnSubmit = this.handleSubmit.bind(this) 
     }
-//handleChange(event) {
-//    const {winning_numbers, bonus, value} = event.target
-//    this.setState({ [winning_numbers]: value, [bonus]: value});
-//}
+
 handleChange (event) {
-   // this.setState( [event.target.name]= event.target.value )
    const { name, value } = event.target
    let state = this.state
 

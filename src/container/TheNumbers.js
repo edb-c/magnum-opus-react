@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
 
 import Myluckynumbers from './Myluckynumbers'; 
 import MyluckynumbersForm from './MyluckynumbersForm'; 
-import Nylotteryapi from '../components/Nylotteryapi';
+import Nylotteryapi from '../container/Nylotteryapi';
 
 import Image from 'react-bootstrap/Image';
 import Numbers from '../assets/Numbers.jpg';
@@ -20,7 +20,6 @@ class TheNumbers extends Component {
  
   componentDidMount() {
    this.props.fetch_myluckynumbers() 
-
    }
   
 
