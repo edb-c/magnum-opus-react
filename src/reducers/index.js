@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import winnersReducer from './winnersReducer';
+import myluckynumbersReducer from './myluckynumbersReducer';
 import nylotteryapiReducer from './nylotteryapiReducer';
 
 const rootReducer = combineReducers({
- winners:       winnersReducer,
+ winners:       myluckynumbersReducer,
  nylotteryapi:  nylotteryapiReducer
 }) 
 

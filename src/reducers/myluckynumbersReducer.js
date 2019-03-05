@@ -1,4 +1,4 @@
-export default function winnersReducer(state = {
+export default function myluckynumbersReducer(state = {
     loading: false,
     winnersPayload: []
   }, action) { 

@@ -48,5 +48,5 @@ const mapStateToProps = state => {
     }
 
 //When connect is used, it 'connects' the component to the application store.
-//Now is smart component or container.
+//Now is smart container.
     export default connect(mapStateToProps, { delete_myluckynumbers })(Myluckynumbers)
