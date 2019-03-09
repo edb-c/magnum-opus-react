@@ -2,6 +2,8 @@ import React, { Component } from 'react';   //destructured
 import { delete_myluckynumbers } from '../actions/delete_myluckynumbers';
 import { connect } from 'react-redux';
 import Table from 'react-bootstrap/Table'
+import LikeButton from '../components/LikeButton';
+
 
 //All of the visible content of our app is contained within this App class.
 //<MyluckynumbersForm create_myluckynumbers={this.props.create_myluckynumbers}/> 
@@ -14,6 +16,7 @@ class Myluckynumbers extends Component {
           <td>  {winner.id}</td>
           <td> {winner.winning_numbers} </td>
           <td><a href="/thenumbers" onClick={delete_myluckynumbers(winner.id,winner.winning_numbers, 0)}>Delete</a></td>
+          <td><LikeButton></LikeButton></td>
            </tr> 
         })
 
@@ -29,6 +32,7 @@ class Myluckynumbers extends Component {
             <th>Record ID</th>
             <th>Your Stored Numbers</th> 
             <th>Action</th> 
+            <th>Like / Count</th> 
         </tr>
    
         {this.renderWinners()}
@@ -47,6 +51,7 @@ const mapStateToProps = state => {
       } 
     }
 
+
 //When connect is used, it 'connects' the component to the application store.
 //Now is smart component or container.
-    export default connect(mapStateToProps, { delete_myluckynumbers })(Myluckynumbers)
+ export default connect(mapStateToProps, { delete_myluckynumbers })(Myluckynumbers)
