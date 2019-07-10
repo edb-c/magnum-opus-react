@@ -5,8 +5,8 @@ export function fetch_myluckynumbers() {
   return (dispatch) => {  
       dispatch({ type: 'LOADING_MYLUCKYNUMBERS'})
 
-//  return fetch('https://magnum-opus-api.herokuapp.com/api/v1/myluckynumbers')
-return fetch('http://localhost:3000/api/v1/myluckynumbers')
+  return fetch('https://magnum-opus-api.herokuapp.com/api/v1/myluckynumbers')
+
 //  return fetch('https://data.ny.gov/resource/6nbc-h7bj.json')    
   
   .then(response => response.json())
