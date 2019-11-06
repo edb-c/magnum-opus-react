@@ -1,3 +1,21 @@
+# MAGNUM OPUS REACT
+
+## Live Demo: https://magnum-opus-react.herokuapp.com/#/
+
+This is the final - the magnum opus - project for the Flatiron School program.
+
+This is a demo of a client/server application using:
+
+- Ruby on Rails for backend API
+- React/Redux for frontend
+- Bootstrap for responsive design
+
+This repo is the front-end application.
+
+For the front-end, please visit: [https://github.com/edb-c/magnum-opus-api](https://github.com/edb-c/magnum-opus-api)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
