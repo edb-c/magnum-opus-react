@@ -63,6 +63,29 @@ class ProjectSummary extends Component {
 						<Image src={Check} className='Check' alt='check' />
 						The application uses Bootstrap for responsive styling.
 					</ul>
+
+					<p>
+						<br />
+						Summary of this demo:
+						<br />
+						<li>
+							The Past 10 Winning NY Lotto Numbers table is consumed from the NY
+							Lottery Api.
+						</li>
+						<li>Limited the number of records fetched to 10.</li>
+						<li>Made use of the HTTParty gem and ActiveResource.</li>
+						<li>
+							Stored Lucky Numbers table is fetched from a Postgres database in
+							Rails.
+						</li>
+						<li>A user has the option to add and/or delete stored data.</li>
+					</p>
+					<p>
+						Possible future enhancements include adding pagination to the
+						Nylotterapi table and implementing a Play These Numbers generator,
+						that would use the Law of Averages to determine, as well as the User
+						Register/Login features.
+					</p>
 				</Jumbotron>
 			</div>
 		);

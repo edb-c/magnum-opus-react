@@ -13,7 +13,7 @@ import MyluckynumbersForm from './MyluckynumbersForm';
 import Nylotteryapi from '../container/Nylotteryapi';
 
 import Image from 'react-bootstrap/Image';
-import Numbers from '../assets/Numbers.jpg';
+import Numbers from '../assets/TheNumbers.jpg';
 import '../assets/Numbers.css';
 
 class TheNumbers extends Component {
@@ -28,28 +28,6 @@ class TheNumbers extends Component {
 					<h1>Demo: The Lucky Numbers</h1>
 					<Container fluid>
 						<Row>
-							<p>
-								Here is the demonstration of the concepts:
-								<br />
-								<br />
-								<li>
-									The Past 10 Winning NY Lotto Numbers table is consumed from
-									the NY Lottery Api.
-								</li>
-								<li>Limited the number of records fetched to 10.</li>
-								<li>Made use of the HTTParty gem and ActiveResource.</li>
-								<li>
-									Stored Lucky Numbers table is fetched from a Postgres database
-									in Rails.
-								</li>
-								<li>A user has the option to add and/or delete stored data.</li>
-							</p>
-							<p>
-								Possible future enhancements include adding pagination to the
-								Nylotterapi table and implementing a Play These Numbers
-								generator, that would use the Law of Averages to determine, as
-								well as the User Register/Login features.
-							</p>
 							<Image
 								src={Numbers}
 								className='TN-Numbers-img'
