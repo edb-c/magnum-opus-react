@@ -14,7 +14,26 @@ This repo is the front-end application.
 
 For the front-end, please visit: [https://github.com/edb-c/magnum-opus-api](https://github.com/edb-c/magnum-opus-api)
 
+## Installation
 
+- Clone this repository from github to your desired directory, cd to `magnum-opus-react` folder
+
+- From the terminal type:
+
+```
+$ npm install
+```
+
+## Usage
+
+- After starting the rails api server - Type the command below to run client side:
+
+```
+$ npm start
+
+```
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
