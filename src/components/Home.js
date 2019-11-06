@@ -18,8 +18,8 @@ class Home extends Component {
 						<Col>
 							<p>
 								<h4>
-									This is the last project for the Flatiron School Web
-									Development!
+									This is the last project for the Flatiron School Software
+									Engineering & Web Development Program!
 								</h4>
 								It has been an incredible journey to this point! Thank you for
 								taking time to visit this project. It serves as a building block

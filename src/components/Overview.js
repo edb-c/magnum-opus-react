@@ -8,15 +8,12 @@ class Overview extends Component {
 				<Jumbotron className='jumbtron' fluid>
 					<h1>Overview of React/Redux</h1>
 					<p>
-						React is an open-source Javasciprt library created by Facebook for
-						building complex, interactive UIs in web and mobile applications. It
-						is often referred to at the "V" in the MVC architecture.
+						React is an open-source Javasciprt library created by Facebook in 2011 for
+						building complex, interactive user interfacess in web and mobile applications. It
+						is often referred to at the "V" in the MVC architecture. 
 					</p>
 					<p>
-						A component is a piece of the user interface, that are independent,
-						isolated and can be reusable. Every React application has the root
-						component, containing other child components. In essence, this is a
-						tree of components.
+						React uses component-based architecture. A component is a piece of the user interface, that are independent, isolated and can be reusable. Every React application has the root component, containing other child components. In essence, this is a tree of components.
 					</p>
 					<p>
 						A component is typically implemented as a Javascript class that has
