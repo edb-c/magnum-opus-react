@@ -25,7 +25,7 @@ class App extends Component {
 							<NavLink to='/overview'>Overview of React/Redux</NavLink>
 						</li>
 						<li>
-							<NavLink to='/ProjectSummary'>The Project Requirements</NavLink>
+							<NavLink to='/ProjectSummary'>The Project Summary</NavLink>
 						</li>
 						<li>
 							<NavLink to='/thenumbers'>Demo: The Lucky Numbers</NavLink>

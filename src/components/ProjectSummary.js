@@ -9,7 +9,7 @@ class ProjectSummary extends Component {
 		return (
 			<div>
 				<Jumbotron fluid>
-					<h1>The Project Description</h1>
+					<h1>The Project Summary</h1>
 
 					<ul>
 						<Image src={Check} className='Check' alt='check' />
